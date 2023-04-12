@@ -74,6 +74,10 @@ body{
     animation: ilustrationAnimate ease-in 1s infinite alternate;
 }
 
+
+
+
+
 @keyframes ilustrationAnimate {
     0%{
         transform: sclae(1);

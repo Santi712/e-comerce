@@ -40,7 +40,39 @@ header{
 .cerrar-menu{
     display: none;
 }
+/*Section Main*/
+.banner{
+    height: 100vh;
+    background-image: url(IMAGENES/hombre\ con\ perro.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+   
+    
 
+}
+
+.banner-content{
+    margin-left: 50%;
+    margin-bottom: 50%;
+    
+}
+.banner-content.text-banner h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-sabermas{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1em;
+    transition: transform 0.2s;
+    cursor: pointer;
+    
+}
 @media screen and (max-width:550px){
     .abrir-menu,
     .cerrar-menu {
