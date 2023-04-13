@@ -10,16 +10,20 @@ body{
     background-color: white;
     min-height: 100vh;
 }
+a{
+    text-decoration: none;
+}
 
 header{
+    position: sticky;
+    top: 0;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem 2rem 1rem 2rem;
     background-color: rgb(223, 222, 222);
+    box-shadow: 0px 0px 10px 5px #ccccccbb;
 }
 
 .Logo{
@@ -29,7 +33,7 @@ header{
 .nav-list{
     display: flex;
     list-style-type: none;
-    gap: 1rem;
+    gap: 1.5rem;
     align-items: center;
 }
 
@@ -43,9 +47,7 @@ header{
     display: none;
 }
 #carrito{
-    height: 30px;
     width: 30px;
-    color: #77A1D3;
 }
 
 
@@ -167,7 +169,9 @@ footer div button{
         color: #ecececec;
     }
 
-
+    #wallet img{
+        width: 380px;
+    }
 
     footer{
         display: block;
