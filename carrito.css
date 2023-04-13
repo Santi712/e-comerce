@@ -1,0 +1,33 @@
+main{
+    margin: 0 auto;
+    padding: 30px;
+}
+.contenido{
+    margin: 10px 20px;
+}
+.contenido h1{
+    color: #5b64e4;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+#wallet{
+    margin-top: 20px;
+}
+#wallet img{
+    display: flex;
+    width: 880px;
+    margin: 10px auto;
+    opacity: 0.3;
+    transition: 1s;
+    border-radius: 8px;
+}
+#wallet img:hover{
+    box-shadow: 0 0 10px 5px #5b64e4;
+    width: 900px;
+    opacity: 0.9;
+}
