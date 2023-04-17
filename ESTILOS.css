@@ -2,12 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
 body{
     font-family: 'Raleway', sans-serif;
-    background: linear-gradient(90deg, #77A1D3 0%, #79CBCA 50%, #E684AE 100%);
-    min-height: 100vh;
+   background-image: url(IMAGENES/perro.jpg);
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-position: top center;
+   background-attachment:fixed
+ 
 }
 
 .Contenedor{
@@ -17,13 +22,6 @@ body{
     align-items: center;    
 }
 
-.wawe{
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 60%;
-    z-index:-1; /*Este codigo permite poner las imagenes al fondo, es decir detras del texto u otras imagenes*/
-}
 
 .caja-textos{
     flex-basis: 50%;
@@ -34,32 +32,39 @@ body{
 }
 
 .titulo{
-    font-size: 50px;
+    font-size: 70px;
     line-height: 1.5; /*Este codigo permite dar espaciado entre texto u objetos*/
-    
+   
+}
+h4{
+    color: #fff;
+    text-shadow: 2px 2px 4px #0f0f0f;
 }
 
-.subtitulo{
-    text-align: center;
-    font-size: 30px;
-    font-weight: 500;
-    line-height: 3;
-}
 
 .cta{
     display: inline-block;
     width: 150px;
     padding: 15px 0 ;
     text-align: center;
-    background: #fff;
     border-radius: 5px;
+    background-color:#D9D9D9 ;
     text-decoration: none;
-    color: #77A1D3 ;
+    color:#0f0f0f;
+   
+}
+
+.boton :hover{
+    background-color:#8fe2a4;
+    
 }
 
 .boton{
     text-align: center;
+    font-weight: 50px;
+    
 }
+
 
 .Contenedor-imagen{
   flex-basis: 50%;
@@ -69,10 +74,7 @@ body{
   overflow: hidden;
 }
 
-.img{
-    width: 95%;
-    animation: ilustrationAnimate ease-in 1s infinite alternate;
-}
+
 
 @keyframes ilustrationAnimate {
     0%{
@@ -104,10 +106,7 @@ body{
         font-size: 40px;
     }
 
-    .subtitulo{
-        font-size: 20px;
-    }
-
+   
     .Contenedor-imagen{
         flex-basis: 60%;
         width: 100%;
@@ -116,10 +115,7 @@ body{
         justify-content: center;
     }
 
-    .img{
-        height: 90%;
-    }
-
+   
 }
 
 @media screen and (max-width: 500px) {
