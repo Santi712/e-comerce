@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos 1</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="ESTILOSMENU1.css">
+    <link rel="stylesheet" href="productos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="IMAGENES/logo.png" alt="Logo" class="Logo">
+        <button class="abrir-menu" id="abrir"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-file-excel-fill"></i></button>
+            <ul class="nav-list">
+                <li><a href="#">Sobre<br>nosotros</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li>
+                    <a class="carrito" href="carrito.html">
+                        <img src="img/carrito.svg" alt="carrito de compra">
+                        <span class="numero">1</span>
+                    </a>    
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="Cuerpo">
+        <div class="tipo">
+            <li>
+                <button>Todos los productos</button>
+            </li>
+            <li>
+                <button>Vestidos</button>
+            </li>
+            <li>
+                <button>Sudadera</button>
+            </li>
+            <li>
+                <button>Abrigos</button>
+            </li>
+            <li>
+                <button>Chubasqueros</button>
+            </li>
+            <li>
+                <button>Jerseis</button>
+            </li>
+            <li>
+                <button>Arneses</button>
+            </li>
+            <li>
+                <button>Collar</button>
+            </li>
+            <li>
+                <button>Lazo</button>
+            </li>
+        </div>
+        <div id="contenedor-productos" class="container-items">
+            <!-- Esto se va a rellenar con JS -->
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <h2>Sobre GuauShop</h2>
+            <ul>
+                <li>Historia</li>
+                <li><a href="">Protección de datos</a></li>
+                <li><a href="">Cookies</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Únete al equipo</h2>
+            <ul>
+                <li>Trabaja con nosotros</li>
+            </ul>
+        </div>
+        <div>
+            <h2>¡Síguenos! :</h2>
+            <ul>
+                <li><a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+                <li><a href="https://www.instagram.com/b.santiago12/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+            </ul>
+        </div>
+        <div class="last">
+            <h2>¿Quieres contactar con nosotros?</h2>
+                <button type="submit">Contacto</button>
+        </div>
+    </footer>
+    <footer class="color">
+        <div>Developed by Grupo 4</div>
+        <div>Copyright 2023 © Every rigths reserved.</div>
+    </footer>
+
+    <script src="escript/main1.js"></script>
+    <script src="escript/productos.js"></script>
+</body>
+</html>
