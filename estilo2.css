@@ -168,15 +168,3 @@ footer div button{
     }
 
 
-
-    footer{
-        display: block;
-        padding: 1px;
-    }
-    footer div{
-        width: auto;
-    }
-    .color{
-        text-align: center;
-    }
-}
