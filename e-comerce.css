@@ -152,8 +152,6 @@ section {
 
 .grid-texto img {
     max-width: 70%;
-
-
 }
 
 .grid-texto h1 {
@@ -166,17 +164,29 @@ section {
     margin-right: 15%;
 }
 
+
+
+
 .grid-texto img {
     max-width: 70%;
 }
+/*  parejas */
 
 .pares{
     display: flexbox;
 }
 .pares img{
-
-    width: 25%;
+   width: 30%;
 }
+
+.pares .perro-modelo{
+    height: 25%git ;
+}
+
+
+
+
+
 
 footer {
     display: inline-flex;
