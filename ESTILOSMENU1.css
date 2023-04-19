@@ -46,10 +46,24 @@ header{
 .cerrar-menu{
     display: none;
 }
-#carrito{
+.carrito{
     width: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
 }
-
+.numero{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5b64e4;
+    color: white;
+    width: 18px;
+    border-radius: 50%;
+    right: 20px;
+    top: 30%;
+}
 
 
 /*empieza el pie de página*/
@@ -170,7 +184,7 @@ footer div button{
     }
 
     #wallet img{
-        width: 380px;
+        max-width: 350px;
     }
 
     footer{
