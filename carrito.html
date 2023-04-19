@@ -27,7 +27,6 @@
                 <li>
                     <a class="carrito" href="">
                         <img src="img/carrito.svg" alt="carrito de compra">
-                        <span class="numero">0</span>
                     </a>    
                 </li>
             </ul>
@@ -39,50 +38,33 @@
         <div class="lista-productos">
             <h3>Productos</h3>
             <div class="contenido-carrito">
-                <p class="carrito-vacio">Tu carrito está vacio 😥</p>
-                <div class="carrito-productos disabled">
+                <p id="carrito-vacio" class="carrito-vacio">Tu carrito está vacio 😥</p>
+                <div id="carrito-productos" class="carrito-productos disabled">
                     <div class="carrito-producto">
-                        <img src="prod_img/sudadera-gris.jpg" alt="sudadera">
-                        <div class="carrito-producto-titulo">
-                            <small>Título</small>
-                            <h3>Sudadera Moschino</h3>
-                        </div>
-                        <div class="carrito-producto-cantidad">
-                            <small>Cantidad</small>
-                            <p>1</p>
-                        </div>
-                        <div class="carrito-producto-precio">
-                            <small>Precio</small>
-                            <p>89€</p>
-                        </div>
-                        <div class="carrito-producto-subtotal">
-                            <small>Subtotal</small>
-                            <p>89€</p>
-                        </div>
-                        <button class="carrito-producto-eliminar">Eliminar</button>
+                        <!-- Se va acompletar con JavaScript -->
                     </div>
                 </div>
-                <div class="carrito-acciones disabled">
+                <div id="carrito-acciones" class="carrito-acciones disabled">
                     <div class="carrito-acciones-izq">
-                        <button class="carrito-acciones-vaciar">vaciar carrito</button>
+                        <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">vaciar carrito</button>
                     </div>
                     <div class="carrito-acciones-drch">
                         <div class="carrito-acciones-total">
                             <p>Total:</p>
                             <p id="total">89€</p>
                         </div>
-                        <button class="carrito-acciones-comprar">comprar ahora</button>
+                        <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">comprar ahora</button>
                     </div>
                 </div>
-                <p class="carrito-comprado disabled">¡Gracias por tu compra! 😊</p>
+                <p id="carrito-comprado" class="carrito-comprado disabled">¡Gracias por tu compra! 😊</p>
             </div>
         </div>
         <div class="opciones">
             <button id="opcion1">
-                <a href="#">Seguir Comprando</a>
+                <a class="seguir-comprando" href="productos1.html">Seguir Comprando</a>
             </button>
             <button id="opcion2">
-                <a href="">Actualizar carrito</a>
+                <a class="actualizar-carrito" href="">Actualizar carrito</a>
             </button>
         </div>
         <div id="wallet">
@@ -123,5 +105,6 @@
     </footer>
 
     <script src="script/main1.js"></script>
+    <script src="script/carrito.js"></script>
 </body>
 </html>
