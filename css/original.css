@@ -436,20 +436,26 @@ main{
     text-transform: uppercase;
 }
 
-/**
 .disabled{
     display: none;
 }
-**/
 
 .opciones{
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 15px;
     gap: 2rem;
 }
+.seguir-comprando{
+    color: white;
+    text-decoration: none;
+}
+.actualizar-carrito{
+    color: white;
+    text-decoration: none;
+}
 #opcion1{
-    background-color:#969595;
+    background-color:#5b64e4;
     color: white;
     font-size: 1em;
     width: 170px;
