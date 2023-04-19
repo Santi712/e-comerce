@@ -5,24 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrito</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="ESTILOSMENU1.css">
-    <link rel="stylesheet" href="carrito.css">
+    <link rel="stylesheet" href="css/original.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="IMAGENES/logo.png" alt="Logo" class="Logo">
+        <div>
+            <a href="ecomerce.html">
+                <img src="IMAGENES/logo.png" alt="Logo" class="Logo">
+            </a>
+        </div>
         <button class="abrir-menu" id="abrir"><i class="bi bi-list"></i></button>
         <nav class="nav" id="nav">
             <button class="cerrar-menu" id="cerrar"><i class="bi bi-file-excel-fill"></i></button>
             <ul class="nav-list">
-                <li><a href="#">Sobre<br>nosotros</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="sobre.html">Sobre<br>nosotros</a></li>
+                <li><a href="#">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
                 <li>
-                    <a class="carrito" href="#">
+                    <a class="carrito" href="">
                         <img src="img/carrito.svg" alt="carrito de compra">
                         <span class="numero">0</span>
                     </a>    
@@ -91,7 +94,7 @@
         <div>
             <h2>Sobre GuauShop</h2>
             <ul>
-                <li>Historia</li>
+                <li><a href="sobre.html">Historia</a></li>
                 <li><a href="">Protección de datos</a></li>
                 <li><a href="">Cookies</a></li>
             </ul>
@@ -111,7 +114,7 @@
         </div>
         <div class="last">
             <h2>¿Quieres contactar con nosotros?</h2>
-                <button type="submit">Contacto</button>
+                <button type="submit"><a class="contact" href="contacto.html">Contacto</a></button>
         </div>
     </footer>
     <footer class="color">
@@ -119,6 +122,6 @@
         <div>Copyright 2023 © Every rigths reserved.</div>
     </footer>
 
-    <script src="escript/main1.js"></script>
+    <script src="script/main1.js"></script>
 </body>
 </html>

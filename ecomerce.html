@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>GuauShop</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="e-comerce.css">
+    <link rel="stylesheet" href="css/original.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
@@ -15,35 +15,41 @@
 
 <body>
     <header>
-        <img src="IMAGENES/logo.png" alt="Logo" class="Logo">
+        <div>
+            <a href="ecomerce.html">
+                <img src="IMAGENES/logo.png" alt="Logo" class="Logo">
+            </a>
+        </div>
         <button class="abrir-menu" id="abrir"><i class="bi bi-list"></i></button>
         <nav class="nav" id="nav">
             <button class="cerrar-menu" id="cerrar"><i class="bi bi-file-excel-fill"></i></button>
             <ul class="nav-list">
-                <li><a href="#">Sobre<br>nosotros</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Contacto</a></li>
-                <div id="carrito">
-                    <img src="img/carrito.svg" alt="carrito de compra">
-                </div>
+                <li><a href="sobre.html">Sobre<br>nosotros</a></li>
+                <li><a href="#">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li>
+                    <a class="carrito" href="carrito.html">
+                        <img src="img/carrito.svg" alt="carrito de compra">
+                        <span id="numero" class="numero">0</span>
+                    </a>    
+                </li>
             </ul>
         </nav>
     </header>
 
+    <main>
     <div class="portada">
-        <img src="./IMAGENES/portada5.jpg" class="responsive-img" alt="#">
-        <div class="TEXTO">
-            <p><strong>"La ropa para perros pequeños <br>
+        <img class="responsive-img" src="./IMAGENES/portada5.jpg" alt="">
+            <p class="texto1"><strong>"La ropa para perros pequeños <br>
                     con tanto estilo como tú".</strong></p>
-        </div>
         <div class="Botones">
-            <button> <a class="SABER-MÁS" href="Productos">SABER MÁS</a></button>
-            <button><a class="COMPRAR" href="COMPRAR">COMPRAR</a></button>
+            <button> <a class="saber-mas" href="#">SABER MÁS</a></button>
+            <button><a class="eleccion-comprar" href="productos1.html">COMPRAR</a></button>
         </div>
     </div>
 
     
-    <section>
+    <div class="seccion1">
         <h3>La moda que quieres para tu mascota</h3>
         <p>Quieres tanto a tu pequeño que le das todos
             los mimos y<br> el cariño que puedes. Por eso
@@ -54,33 +60,36 @@
             por eso preparamos tu pedido con el mayor cuidado y rapidez.<br>
             Para que puedas disfrutarlo rápidamente en casa.
         </p>
-    </section>
+    </div>
 
     <div class="grid-texto">
-        <div>
-            <h1> COLECCIÓN 2023</h1>
-        </div>
+        <h1> COLECCIÓN 2023</h1>
         <div class="grid-container">
-
             <div class="grid-item">
                 </divc><img src="./IMAGENES/bragas-perra.jpg" class="responsive-img" class="responsive-img" alt="#">
             </div>
-            <div class="grid-item"><img src="./IMAGENES/lacitos.jpg" class="responsive-img" alt="#"></div>
-            <div class="grid-item"><img src="./IMAGENES/Gordi-vestido-rosa-.jpg" class="responsive-img" alt="#"></div>
-            <div class="grid-item"> <img src="./IMAGENES/vestido-cuadros-blancos.jpg" class="responsive-img" alt="#">
+            <div class="grid-item">
+                <img src="./IMAGENES/lacitos.jpg" class="responsive-img" alt="#">
             </div>
-            <div class="grid-item"> <img src="./IMAGENES/Camiseta-para-perros-azul.jpg" class="responsive-img" alt="#">
+            <div class="grid-item">
+                <img src="./IMAGENES/Gordi-vestido-rosa-.jpg" class="responsive-img" alt="#">
             </div>
-            <div class="grid-item"> <img
-                    src="./IMAGENES/sudadera-capucha-marron-estampado-blanco-ropa-perros-primavera-1.jpg"
-                    class="responsive-img" alt="#"></div>
+            <div class="grid-item">
+                <img src="./IMAGENES/vestido-cuadros-blancos.jpg" class="responsive-img" alt="#">
+            </div>
+            <div class="grid-item"> 
+                <img src="./IMAGENES/Camiseta-para-perros-azul.jpg" class="responsive-img" alt="#">
+            </div>
+            <div class="grid-item"> 
+                <img class="responsive-img" src="./IMAGENES/sudadera-capucha-marron-estampado-blanco-ropa-perros-primavera-1.jpg" alt="#">
+            </div>
         </div>
 
 
 
         <div class="pares">
 
-            <div class="COMPLEMENTO">
+            <div class="complemento">
             <img src="./IMAGENES/Falda-a-cuadros.jpg" class="responsive-img" alt="#">
                 <p><strong>El complemento <br> perfecto <br>
                         para <br>salir a pasear.</strong></p>
@@ -96,43 +105,43 @@
             </div>
             </div>
         </div>
-    
+    </main>
 
 
-        <footer>
-            <div>
-                <h2>Sobre GuauShop</h2>
-                <ul>
-                    <li>Historia</li>
-                    <li><a href="">Protección de datos</a></li>
-                    <li><a href="">Cookies</a></li>
-                </ul>
-            </div>
-            <div>
-                <h2>Únete al equipo</h2>
-                <ul>
-                    <li>Trabaja con nosotros</li>
-                </ul>
-            </div>
-            <div>
-                <h2>¡Síguenos! :</h2>
-                <ul>
-                    <li><a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
-                    <li><a href="https://www.instagram.com/b.santiago12/" target="_blank"><i class="fa fa-instagram"
-                                aria-hidden="true"></i> Instagram</a></li>
-                </ul>
-            </div>
-            <div class="last">
-                <h2>¿Quieres contactar con nosotros?</h2>
-                <button type="submit">Contacto</button>
-            </div>
-        </footer>
-        <footer class="color">
-            <div>Developed by Grupo 4</div>
-            <div>Copyright 2023 © Every rigths reserved.</div>
-        </footer>
+    <footer>
+        <div>
+            <h2>Sobre GuauShop</h2>
+            <ul>
+                <li><a href="sobre.html">Historia</a></li>
+                <li><a href="">Protección de datos</a></li>
+                <li><a href="">Cookies</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Únete al equipo</h2>
+            <ul>
+                <li>Trabaja con nosotros</li>
+            </ul>
+        </div>
+        <div>
+            <h2>¡Síguenos! :)</h2>
+            <ul>
+                <li><a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+                <li><a href="https://www.instagram.com/b.santiago12/" target="_blank"><i class="fa fa-instagram"
+                            aria-hidden="true"></i> Instagram</a></li>
+            </ul>
+        </div>
+        <div class="last">
+            <h2>¿Quieres contactar con nosotros?</h2>
+            <button type="submit"><a class="contact" href="contacto.html">Contacto</a></button>
+        </div>
+    </footer>
+    <footer class="color">
+        <div>Developed by Grupo 4</div>
+        <div>Copyright 2023 © Every rigths reserved.</div>
+    </footer>
 
-        <script src="escript/main1.js"></script>
+    <script src="escript/main1.js"></script>
 </body>
 
 </html>
@@ -141,4 +150,4 @@
 
 </body>
 
-</html>
+</html
