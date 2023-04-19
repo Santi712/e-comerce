@@ -10,20 +10,16 @@ body{
     background-color: white;
     min-height: 100vh;
 }
-a{
-    text-decoration: none;
-}
 
 header{
-    position: sticky;
-    top: 0;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: rgb(223, 222, 222);
-    box-shadow: 0px 0px 10px 5px #ccccccbb;
 }
 
 .Logo{
@@ -33,7 +29,7 @@ header{
 .nav-list{
     display: flex;
     list-style-type: none;
-    gap: 1.5rem;
+    gap: 1rem;
     align-items: center;
 }
 
@@ -46,24 +42,12 @@ header{
 .cerrar-menu{
     display: none;
 }
-.carrito{
+#carrito{
+    height: 30px;
     width: 30px;
-    display: flex;
-    justify-content: center;
-    gap: 0.5rem;
+    color: #77A1D3;
 }
-.numero{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #5b64e4;
-    color: white;
-    width: 18px;
-    border-radius: 50%;
-    right: 20px;
-    top: 30%;
-}
+
 
 
 /*empieza el pie de página*/
@@ -183,18 +167,4 @@ footer div button{
         color: #ecececec;
     }
 
-    #wallet img{
-        max-width: 350px;
-    }
 
-    footer{
-        display: block;
-        padding: 1px;
-    }
-    footer div{
-        width: auto;
-    }
-    .color{
-        text-align: center;
-    }
-}
