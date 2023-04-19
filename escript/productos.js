@@ -5,8 +5,8 @@ const productos = [
         titulo: "Vestido Azul",
         imagen: "./prod_img/vestido-azul.jpg",
         categoria: {
-            nombre: "vestido",
-            id: "color"
+            nombre: "Vestidos",
+            id: "vestido"
         },
         precio: 20
     },
@@ -15,8 +15,8 @@ const productos = [
         titulo: "Vestido Blanco",
         imagen: "./prod_img/vestido-blanco.jpg",
         categoria: {
-            nombre: "vestido",
-            id: "color"
+            nombre: "Vestidos",
+            id: "vestido"
         },
         precio: 21
     },
@@ -25,8 +25,8 @@ const productos = [
         titulo: "Vestido Naranja",
         imagen: "./prod_img/vestido-naranja.jpg",
         categoria: {
-            nombre: "vestido",
-            id: "color"
+            nombre: "Vestidos",
+            id: "vestido"
         },
         precio: 18
     },
@@ -35,8 +35,8 @@ const productos = [
         titulo: "Vestido Verde",
         imagen: "./prod_img/vestido-verde.jpg",
         categoria: {
-            nombre: "vestido",
-            id: "color"
+            nombre: "Vestidos",
+            id: "vestido"
         },
         precio: 20
     },
@@ -45,8 +45,8 @@ const productos = [
         titulo: "Vestido Rojo",
         imagen: "./prod_img/vestido-rojo.jpg",
         categoria: {
-            nombre: "vestido",
-            id: "color"
+            nombre: "Vestidos",
+            id: "vestido"
         },
         precio: 25
     },
@@ -55,8 +55,8 @@ const productos = [
         titulo: "Vestido Rosa",
         imagen: "./prod_img/vestido-rosa.jpg",
         categoria: {
-            nombre: "vestido",
-            id: "color"
+            nombre: "Vestidos",
+            id: "vestido"
         },
         precio: 28
     },
@@ -65,8 +65,8 @@ const productos = [
         titulo: "Vestido Negro",
         imagen: "./prod_img/vestido-negro.jpg",
         categoria: {
-            nombre: "vestido",
-            id: "color"
+            nombre: "Vestidos",
+            id: "vestido"
         },
         precio: 20
     },
@@ -75,8 +75,8 @@ const productos = [
         titulo: "Vestido Marrón",
         imagen: "./prod_img/vestido-marron.jpg",
         categoria: {
-            nombre: "vestido",
-            id: "color"
+            nombre: "Vestidos",
+            id: "vestido"
         },
         precio: 32
     },
@@ -87,7 +87,7 @@ const productos = [
         imagen: "./prod_img/sudadera-gris.jpg",
         categoria: {
             nombre: "sudadera",
-            id: "color"
+            id: "Sudaderas"
         },
         precio: 89
     },
@@ -96,8 +96,8 @@ const productos = [
         titulo: "Sudadera Verde",
         imagen: "./prod_img/sudadera-verde.jpg",
         categoria: {
-            nombre: "sudadera",
-            id: "color"
+            nombre: "Sudaderas",
+            id: "sudadera"
         },
         precio: 30
     },
@@ -106,8 +106,8 @@ const productos = [
         titulo: "Sudadera Marrón",
         imagen: "./prod_img/sudadera-marron.jpg",
         categoria: {
-            nombre: "sudadera",
-            id: "color"
+            nombre: "Sudaderas",
+            id: "sudadera"
         },
         precio: 25
     },
@@ -116,8 +116,8 @@ const productos = [
         titulo: "Sudadera Roja",
         imagen: "./prod_img/sudadera-roja.jpg",
         categoria: {
-            nombre: "sudadera",
-            id: "color"
+            nombre: "Sudaderas",
+            id: "sudadera"
         },
         precio: 22
     },
@@ -126,8 +126,8 @@ const productos = [
         titulo: "Sudadera Rosa",
         imagen: "./prod_img/sudadera-rosa.jpg",
         categoria: {
-            nombre: "sudadera",
-            id: "color"
+            nombre: "Sudaderas",
+            id: "sudadera"
         },
         precio: 18
     },
@@ -136,8 +136,8 @@ const productos = [
         titulo: "Sudadera Amarilla",
         imagen: "./prod_img/sudadera-amarilla.jpg",
         categoria: {
-            nombre: "sudadera",
-            id: "color"
+            nombre: "Sudaderas",
+            id: "sudadera"
         },
         precio: 20
     },
@@ -147,8 +147,8 @@ const productos = [
         titulo: "Abrigo Amarillo",
         imagen: "./prod_img/abrigo-amarillo.jpg",
         categoria: {
-            nombre: "abrigo",
-            id: "color"
+            nombre: "Abrigos",
+            id: "abrigo"
         },
         precio: 35
     },
@@ -157,8 +157,8 @@ const productos = [
         titulo: "Abrigo Morado",
         imagen: "./prod_img/abrigo-morado.jpg",
         categoria: {
-            nombre: "abrigo",
-            id: "color"
+            nombre: "Abrigos",
+            id: "abrigo"
         },
         precio: 30
     },
@@ -167,8 +167,8 @@ const productos = [
         titulo: "Abrigo Rojo",
         imagen: "./prod_img/abrigo-rojo.jpg",
         categoria: {
-            nombre: "abrigo",
-            id: "color"
+            nombre: "Abrigos",
+            id: "abrigo"
         },
         precio: 40
     },
@@ -177,8 +177,8 @@ const productos = [
         titulo: "Abrigo Verde",
         imagen: "./prod_img/abrigo-verde.jpg",
         categoria: {
-            nombre: "abrigo",
-            id: "color"
+            nombre: "Abrigos",
+            id: "abrigo"
         },
         precio: 32
     },
@@ -188,8 +188,8 @@ const productos = [
         titulo: "Chubasquero Amarillo",
         imagen: "./prod_img/chubasquero-amarillo.jpg",
         categoria: {
-            nombre: "chubasquero",
-            id: "color"
+            nombre: "Chubasqueros",
+            id: "chubasquero"
         },
         precio: 15
     },
@@ -198,8 +198,8 @@ const productos = [
         titulo: "Chubasquero Azul",
         imagen: "./prod_img/chubasquero-azul.jpg",
         categoria: {
-            nombre: "chubasquero",
-            id: "color"
+            nombre: "Chubasqueros",
+            id: "chubasquero"
         },
         precio: 22
     },
@@ -208,8 +208,8 @@ const productos = [
         titulo: "Chubasquero Gris",
         imagen: "./prod_img/chubasquero-gris.jpg",
         categoria: {
-            nombre: "chubasquero",
-            id: "color"
+            nombre: "Chubasqueros",
+            id: "chubasquero"
         },
         precio: 35
     },
@@ -218,8 +218,8 @@ const productos = [
         titulo: "Chubasquero Verde",
         imagen: "./prod_img/chubasquero-verde.jpg",
         categoria: {
-            nombre: "chubasquero",
-            id: "color"
+            nombre: "Chubasqueros",
+            id: "chubasquero"
         },
         precio: 30
     },
@@ -229,8 +229,8 @@ const productos = [
         titulo: "Jersey Blanco",
         imagen: "./prod_img/jersey-blanco.jpg",
         categoria: {
-            nombre: "jersey",
-            id: "color"
+            nombre: "Jerseis",
+            id: "jersey"
         },
         precio: 20
     },
@@ -239,8 +239,8 @@ const productos = [
         titulo: "Jersey Rojo",
         imagen: "./prod_img/jersey-rojo.jpg",
         categoria: {
-            nombre: "jersey",
-            id: "color"
+            nombre: "Jerseis",
+            id: "jersey"
         },
         precio: 8
     },
@@ -249,8 +249,8 @@ const productos = [
         titulo: "Jersey Marino",
         imagen: "./prod_img/jersey-marino.jpg",
         categoria: {
-            nombre: "jersey",
-            id: "color"
+            nombre: "Jerseis",
+            id: "jersey"
         },
         precio: 15
     },
@@ -259,8 +259,8 @@ const productos = [
         titulo: "Jersey Marrón",
         imagen: "./prod_img/jersey-marron.jpg",
         categoria: {
-            nombre: "jersey",
-            id: "color"
+            nombre: "Jerseis",
+            id: "jersey"
         },
         precio: 12
     },
@@ -269,8 +269,8 @@ const productos = [
         titulo: "Jersey Rosa",
         imagen: "./prod_img/jersey-rosa.jpg",
         categoria: {
-            nombre: "jersey",
-            id: "color"
+            nombre: "Jerseis",
+            id: "jersey"
         },
         precio: 10
     },
@@ -279,8 +279,8 @@ const productos = [
         titulo: "Jersey Azul",
         imagen: "./prod_img/jersey-azul.jpg",
         categoria: {
-            nombre: "jersey",
-            id: "color"
+            nombre: "Jerseis",
+            id: "jersey"
         },
         precio: 8
     },
@@ -290,8 +290,8 @@ const productos = [
         titulo: "Collar Rojo",
         imagen: "./prod_img/collar-rojo.jpg",
         categoria: {
-            nombre: "collar",
-            id: "color"
+            nombre: "Collares",
+            id: "collar"
         },
         precio: 12
     },
@@ -300,8 +300,8 @@ const productos = [
         titulo: "Collar Amarillo",
         imagen: "./prod_img/collar-amarillo.jpg",
         categoria: {
-            nombre: "collar",
-            id: "color"
+            nombre: "Collares",
+            id: "collar"
         },
         precio: 10
     },
@@ -310,8 +310,8 @@ const productos = [
         titulo: "Collar Negro",
         imagen: "./prod_img/collar-negro.jpg",
         categoria: {
-            nombre: "collar",
-            id: "color"
+            nombre: "Collares",
+            id: "collar"
         },
         precio: 8
     },
@@ -320,8 +320,8 @@ const productos = [
         titulo: "Collar Verde",
         imagen: "./prod_img/collar-verde.jpg",
         categoria: {
-            nombre: "collar",
-            id: "color"
+            nombre: "Collares",
+            id: "collar"
         },
         precio: 8
     },
@@ -331,8 +331,8 @@ const productos = [
         titulo: "Arnes Rojo",
         imagen: "./prod_img/arnes-rojo.jpg",
         categoria: {
-            nombre: "arnes",
-            id: "color"
+            nombre: "Arneses",
+            id: "arnes"
         },
         precio: 15
     },
@@ -341,8 +341,8 @@ const productos = [
         titulo: "Arnes Rosa",
         imagen: "./prod_img/arnes-rosa.jpg",
         categoria: {
-            nombre: "arnes",
-            id: "color"
+            nombre: "Arneses",
+            id: "arnes"
         },
         precio: 15
     },
@@ -351,8 +351,8 @@ const productos = [
         titulo: "Arnes Azul",
         imagen: "./prod_img/arnes-azul.jpg",
         categoria: {
-            nombre: "arnes",
-            id: "color"
+            nombre: "Arneses",
+            id: "arnes"
         },
         precio: 15
     },
@@ -362,8 +362,8 @@ const productos = [
         titulo: "Lazo rojo",
         imagen: "./prod_img/lazo-rojo.jpg",
         categoria: {
-            nombre: "lazo",
-            id: "color"
+            nombre: "Lazos",
+            id: "lazo"
         },
         precio: 15
     },
@@ -372,8 +372,8 @@ const productos = [
         titulo: "Lazo Amarillo",
         imagen: "./prod_img/lazo-amarillo.jpg",
         categoria: {
-            nombre: "lazo",
-            id: "color"
+            nombre: "Lazos",
+            id: "lazo"
         },
         precio: 15
     },
@@ -382,18 +382,24 @@ const productos = [
         titulo: "Lazo Rosa",
         imagen: "./prod_img/lazo-rosa.jpg",
         categoria: {
-            nombre: "lazo",
-            id: "color"
+            nombre: "Lazos",
+            id: "lazo"
         },
         precio: 15
     },
 ];
 
 const contenedorProductos = document.querySelector("#contenedor-productos");
+const botonesCategorias = document.querySelectorAll(".boton-categoria");
+const tituloPrincipal = document.querySelector("#titulo-principal");
+let botonesAgregar = document.querySelectorAll(".agregar");
+const numero = document.querySelector("#numero");
 
-function cargarProductos() {
+function cargarProductos(productosElegidos) {
 
-    productos.forEach(item => {
+    contenedorProductos.innerHTML = "";
+
+    productosElegidos.forEach(item => {
         
         const div = document.createElement("div");
         div.classList.add("item");
@@ -404,16 +410,70 @@ function cargarProductos() {
             <div class="info-product">
                 <h2>${item.titulo}</h2>
                 <p class="price">${item.precio}€</p>
-                <button id="${item.id}">Añadir al carrito</button>
+                <button class="agregar" id="${item.id}">Añadir al carrito</button>
             </div>    
         `;
 
         contenedorProductos.append(div);
     })
+
+    actualizarBotonesAgregar();
 }
 
-cargarProductos();
+cargarProductos(productos);
 
+botonesCategorias.forEach(boton => {
+    boton.addEventListener("click", (e) => {
+
+        botonesCategorias.forEach(boton => 
+            boton.classList.remove("active"));
+
+        e.currentTarget.classList.add("active");
+
+        if (e.currentTarget.id != "todos") {
+            const productoCategoria = productos.find( item =>
+                item.categoria.id === e.currentTarget.id)
+            tituloPrincipal.innerText = productoCategoria.categoria.nombre;
+
+            const productosBoton = productos.filter(item => 
+                item.categoria.id === e.currentTarget.id);
+            cargarProductos(productosBoton);
+        } else {
+            tituloPrincipal.innerText = "Todos los productos";
+            cargarProductos(productos);
+        }
+        
+        
+        
+    })
+});
+
+function actualizarBotonesAgregar() {
+    botonesAgregar = document.querySelectorAll(".agregar");
+
+    botonesAgregar.forEach(boton => {
+        boton.addEventListener("click", agregarAlCarrito);
+    });
+}
+
+const productosEnCarrito = [];
+
+function agregarAlCarrito(e) {
+
+    const idBoton = e.currentTarget.id;
+    const productoAgregado = productos.find(item => 
+        item.id === idBoton);
+
+    if(productosEnCarrito.some(item => item.id === idBoton)) {
+        const index = productosEnCarrito.findIndex(item =>
+            item.id === idBoton);
+        productosEnCarrito[index].cantidad++;
+    } else {
+        productoAgregado.cantidad = 1;
+        productosEnCarrito.push(productoAgregado)
+    }
+
+}
 
 
 /*
@@ -424,7 +484,7 @@ cargarProductos();
     <div class="info-product">
         <h2>Vestido Azul</h2>
         <p class="price">20€</p>
-        <button>Añadir al carrito</button>
+        <button class="agregar">Añadir al carrito</button>
     </div>
 </div>
 */

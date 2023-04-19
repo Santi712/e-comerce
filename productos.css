@@ -6,7 +6,7 @@
     width: 100%;
     height: 50px;
     background-color: #5b64e4;
-    margin-top: 30px;
+    margin-top: 5px;
     gap: 1em;
 }
 .tipo button{
@@ -15,11 +15,19 @@
     height: 50px;
     background: none;
     border: none;
-}
-.tipo:hover button{
-    background-color: #0a18dd7a;
     border-radius: 10px;
 }
+.boton-categoria.active{
+    background-color: #d4d4d4;
+}
+.titulo-principal{
+    text-align: center;
+    margin-top: 10px;
+}
+/*.tipo:hover button{
+    background-color: #0a18dd7a;
+    border-radius: 10px;
+}*/
 .container-items{
     display: grid;
     grid-template-columns: repeat(4, 1fr);

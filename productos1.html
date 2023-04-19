@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos 1</title>
+    <title>Productos</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="ESTILOSMENU1.css">
     <link rel="stylesheet" href="productos.css">
@@ -24,7 +24,7 @@
                 <li>
                     <a class="carrito" href="carrito.html">
                         <img src="img/carrito.svg" alt="carrito de compra">
-                        <span class="numero">1</span>
+                        <span id="numero" class="numero">0</span>
                     </a>    
                 </li>
             </ul>
@@ -34,33 +34,34 @@
     <main class="Cuerpo">
         <div class="tipo">
             <li>
-                <button>Todos los productos</button>
+                <button id="todos" class="boton-categoria active">Todos los productos</button>
             </li>
             <li>
-                <button>Vestidos</button>
+                <button id="vestido" class="boton-categoria">Vestidos</button>
             </li>
             <li>
-                <button>Sudadera</button>
+                <button id="sudadera" class="boton-categoria">Sudaderas</button>
             </li>
             <li>
-                <button>Abrigos</button>
+                <button id="abrigo" class="boton-categoria">Abrigos</button>
             </li>
             <li>
-                <button>Chubasqueros</button>
+                <button id="chubasquero" class="boton-categoria">Chubasqueros</button>
             </li>
             <li>
-                <button>Jerseis</button>
+                <button id="jersey" class="boton-categoria">Jerseis</button>
             </li>
             <li>
-                <button>Arneses</button>
+                <button id="arnes" class="boton-categoria">Arneses</button>
             </li>
             <li>
-                <button>Collar</button>
+                <button id="collar" class="boton-categoria">Collares</button>
             </li>
             <li>
-                <button>Lazo</button>
+                <button id="lazo" class="boton-categoria">Lazos</button>
             </li>
         </div>
+        <h2 class="titulo-principal" id="titulo-principal">Todos los Produstos</h2>
         <div id="contenedor-productos" class="container-items">
             <!-- Esto se va a rellenar con JS -->
         </div>
