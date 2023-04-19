@@ -171,29 +171,12 @@ section {
 }
 
 .pares{
-    display: grid;
-    width: 50%;
+    display: flexbox;
 }
-
 .pares img{
-    width:80%px; 
-    margin: 10px; 
-    text-align: center; 
-    opacity: 5;   
+
+    width: 25%;
 }
-.perro-modelo .COMPLEMENTO img { 
-
-    height: 15px;
-
-}
-
-
-
-
-
-
-
-
 
 footer {
     display: inline-flex;
