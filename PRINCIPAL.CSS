@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(223, 222, 222);
+}
+
+.Logo{
+    max-width: 5rem;
+}
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    align-items: center;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+.abrir-menu,
+.cerrar-menu{
+    display: none;
+}
+#carrito{
+    height: 30px;
+    width: 30px;
+    color: #77A1D3;
+}
+
+.portada img{
+
+    width: 1100px;
+    height: 550px;
+    justify-content: center;
+
+    
+}
+.portada{
+    text-align: center;
+    padding: 25px;
+    display: block;
+    justify-content: center;
+
+}
+  
+
+.TEXTO{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    }
+   
+
+.TEXTO p{
+    color: rgb(255, 255, 255);
+    font-size:30px;
+    font-family:'Raleway', sans-serif; 
+    justify-content: right;
+}
+
+.Botones{
+    position: absolute;
+    top: 490%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    
+}
+
+.Botones .SABER-MÁS{
+    background: #77A1D3;
+    margin-right: 25px;
+    font-size: 25px;
+    border-radius: 15px;
+    border: none;
+    width: 160px;
+    height: 35px;
+    text-decoration: none;
+    color: #0c0c0c;
+    text-align: center;
+    
+}
+
+.Botones .COMPRAR{
+    background: #0c0c0c;
+    margin-right: 25px;
+    font-size: 25px;
+    border-radius: 15px;
+    border: none;
+    width: 160px;
+    height: 35px;
+    text-decoration: none;
+    color: #ffffff;
+  
+}
+
+.Falda-a-cuadros{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    border-radius: 15px;
+   
+}
+
+.Falda-a-cuadros img{
+    height: 360px;
+    width: 540px; 
+    margin: 10px; 
+    text-align: center; 
+    opacity: 5;   
+}
+
+.Falda-a-cuadros p{
+    color: hsl(0, 7%, 14%);
+    font-size: 25px;
+    justify-content: right; 
+    padding: 30px; 
+    margin-top: 15px; 
+    position: relative;   
+     
+}
+
+.perro-modelo p{
+    color: hsl(0, 7%, 14%);
+    font-size:25px;
+    justify-content: right; 
+    margin-bottom: auto;   
+}
+.COMPLEMENTO{
+    position: absolute;
+    top: 130%;
+    left: 27%;
+    transform: translate(-90%, -50%);
+    }  
+
+.perro-modelo{
+    position: absolute;
+    top: 100%;
+    right:23%;
+    transform: translate(70%, 60%);
+    text-align:start
+    
+    }
+    
+.boton{
+    background: #050505;
+    font-size: 25px;
+    border-radius: 15px;
+    border: none;
+    width: 140px;
+    height: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 2px;
+    text-align: justify;
+    
+   
+}
+
+.boton{
+    position: absolute;
+    top: 165%;
+    right:30%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    text-align: center; 
+    
+}
+section p{
+    text-align: center;
+    font-size: 22px;
+    padding: 15px;
+    color: hwb(0 20% 79%);
+}
+
+section {
+    text-align:center;
+    font-size: 25px;
+    color: hwb(0 20% 79%);
+    padding:30px;
+    
+}
+  
+
+img{
+    height:75%;
+    width: 30%;
+    border-radius: 15px;
+    
+}
+
+
+.catalogo{
+    display: grid;
+    background-color: #8490FE;
+    text-align: center;
+    align-items: center; 
+    padding: 20px; 
+    margin-left: 25%;
+    margin-right:25%;
+    bottom: 15px;    
+}
+ h1{
+    font-size: 55px;  
+ }
+ 
+ 
+
+ footer{
+	display: inline-flex;
+  	flex-wrap: nowrap;
+	width: 100%;
+	background-color: #d4d4d4;
+	color:rgb(51, 51, 51);
+	text-align: center;
+  
+}
+footer h2{
+	font-size: 1em;
+}
+footer p{
+	text-emphasis: center;
+	padding: 50px;
+}
+footer a{
+	color: rgb(51, 51, 51);
+}
+footer div{
+
+	width: 33%;
+	margin: 15px;
+	padding: 20px;
+}
+footer div ul{
+	list-style-type: none;
+}
+footer div ul li{
+	margin: 10px;
+}
+footer div input{
+	padding: 2px;
+	margin-top: 5px;
+	font-size: 1.5em;
+	width: 200px;
+}
+footer div button{
+	background-color:#df6c00;
+	color: white;
+	padding: 2px;
+	margin-top: 5px;
+	font-size: 1.5em;
+	width: 200px;
+	border: none;
+}
+.last{
+	text-align: center;
+}
+
+.color{
+	color: rgba(108, 100, 100, 1);
+	display: flex;
+  	flex-wrap: wrap;
+	justify-content: space-between;
+	border-top: 1px solid #6C6464;
+	font-size: small;
+}
+
+/* ajustes de la zona de copyright y grupo de creación por SANTI */
+.color div{
+    color: #6C6464;
+    text-align: justify;
+    margin: 10px;
+    margin-left: 10%;
+}
+/*acaba el pie de página*/
+
+
+@media screen and (max-width:550px){
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .abrir-menu {
+        color: #1c1c1c;
+    }
+
+    .cerrar-menu {
+        color: #ececec;
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #1c1c1c;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .nav-list li a {
+        color: #ecececec;
+    }
+
+
+
+    footer{
+        display: block;
+        padding: 1px;
+    }
+    footer div{
+        width: auto;
+    }
+    .color{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+   
+    .portada img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .TEXTO p {
+      font-size: 24px;
+    }
+    
+    .Botones {
+      top: 75%;
+    }
+    
+    .Falda-a-cuadros img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .Falda-a-cuadros p {
+      font-size: 20px;
+    }
+    
+    .catalogo {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
