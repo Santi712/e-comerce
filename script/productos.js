@@ -334,7 +334,7 @@ const productos = [
             nombre: "Arneses",
             id: "arnes"
         },
-        precio: 15
+        precio: 18
     },
     {
         id: "arnes-rosa",
@@ -354,7 +354,7 @@ const productos = [
             nombre: "Arneses",
             id: "arnes"
         },
-        precio: 15
+        precio: 10
     },
     //Lazos
     {
@@ -365,7 +365,7 @@ const productos = [
             nombre: "Lazos",
             id: "lazo"
         },
-        precio: 15
+        precio: 5
     },
     {
         id: "lazo-amarillo",
@@ -375,7 +375,7 @@ const productos = [
             nombre: "Lazos",
             id: "lazo"
         },
-        precio: 15
+        precio: 8
     },
     {
         id: "lazo-rosa",
@@ -385,7 +385,7 @@ const productos = [
             nombre: "Lazos",
             id: "lazo"
         },
-        precio: 15
+        precio: 10
     },
 ];
 
@@ -456,7 +456,17 @@ function actualizarBotonesAgregar() {
     });
 }
 
-const productosEnCarrito = [];
+let productosEnCarrito;
+
+let productosEnCarritoLS = localStorage.getItem("productos-en-carrito");
+
+if (productosEnCarritoLS) {
+    productosEnCarrito = JSON.parse(productosEnCarritoLS);
+    actualizarNumero();
+} else {
+    productosEnCarrito = [];
+}
+
 
 function agregarAlCarrito(e) {
 
@@ -470,9 +480,18 @@ function agregarAlCarrito(e) {
         productosEnCarrito[index].cantidad++;
     } else {
         productoAgregado.cantidad = 1;
-        productosEnCarrito.push(productoAgregado)
+        productosEnCarrito.push(productoAgregado);
     }
 
+    actualizarNumero();
+
+    localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
+}
+
+function actualizarNumero() {
+    let nuevoNumero = productosEnCarrito.reduce((acc, item) => acc + item.cantidad, 0);
+    
+    numero.innerText = nuevoNumero;
 }
 
 
