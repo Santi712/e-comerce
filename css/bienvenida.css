@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    background-image: url(perro.jpg);
+    background-image: url(../IMAGENES/perro.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;

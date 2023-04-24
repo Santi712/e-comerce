@@ -100,44 +100,49 @@ nav ul li a.fromLeft:after{  transform-origin:  0% 50%; }
 }
 
 .texto1 {
+    width: 380px;
     position: absolute;
-    top: 50%;
-    left: 60%;
-    transform: translate(-30%, -30%);
-    font-size: 1.5em;
+    top: 30%;
+    left: 8%;
+    font-size: 3em;
     color: #fff;
-    overflow-wrap: break-word;
+    text-shadow: 2px 2px 4px #000000;
 }
 
-.Botones {
-    font-size: 1.8em;
-    padding: 10px;
-    display: inline-block;
-    vertical-align: middle;
-    overflow-wrap: break-word;
-}
-
-.saber-mas {
+.cosas{
+    display: flex;
     position: absolute;
-    top: 70%;
-    left: 180px;
-    background: #77A1D3;
-    border-radius: 3px;
+    gap: 30px;
+    bottom: 15%;
+    left: 40px;
+}
+.cosas button{
     border: none;
-    text-decoration: none;
-    color: #0c0c0c;
-    overflow-wrap: break-word;
+    background-color: transparent;
+}
+.saber-mas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 30px;
+    background: #5b64e4;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 .eleccion-comprar {
-    position: absolute;
-    left: 40px;
-    top: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 30px;
     background: #000000;
-    border-radius: 3px;
-    border: none;
-    text-decoration: none;
-    color: #ffffff;
-    overflow-wrap: break-word;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 
 .grid-container {
@@ -150,18 +155,6 @@ nav ul li a.fromLeft:after{  transform-origin:  0% 50%; }
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
-}
-.seccion1 p {
-    text-align: center;
-    font-size: 22px;
-    padding: 15px;
-    color: hwb(0 20% 79%);
-}
-.seccion1 {
-    text-align: center;
-    font-size: 25px;
-    color: hwb(0 20% 79%);
-    padding: 30px;
 }
 .grid-texto h1 {
     text-align: center;
@@ -242,21 +235,7 @@ nav ul li a.fromLeft:after{  transform-origin:  0% 50%; }
     color: #5b64e4;
     text-align: center;
 }
-  
-@media screen and (max-width: 768px) {
-    .gridcontainer {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-  
-    }
-}
-  
-@media (max-width: 1024px) {
-    .grid-container {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }
-}
+
 /* Fin de la página de Sobre Nosotros */
 
 
@@ -678,6 +657,14 @@ footer div button{
 /*acaba el pie de página*/
 
 
+
+
+
+
+/* Modificaciones para hacerlo responsive */
+
+
+
 @media screen and (max-width:550px){
     .abrir-menu,
     .cerrar-menu {
@@ -739,5 +726,25 @@ footer div button{
     }
     .color{
         text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .gridcontainer {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .texto1{
+        font-size: 1.5rem;
+        width: 260px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
 }
