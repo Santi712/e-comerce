@@ -86,8 +86,8 @@ const productos = [
         titulo: "Sudadera Moschino",
         imagen: "./prod_img/sudadera-gris.jpg",
         categoria: {
-            nombre: "sudadera",
-            id: "Sudaderas"
+            nombre: "Sudaderas",
+            id: "sudadera"
         },
         precio: 89
     },

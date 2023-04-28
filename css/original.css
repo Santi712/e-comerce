@@ -17,6 +17,7 @@ a{
 
 /* Encabezado moderno*/
 header{
+    z-index: 1;
     position: sticky;
     top: 0;
     text-align: center;
@@ -109,6 +110,16 @@ nav ul li a.fromLeft:after{  transform-origin:  0% 50%; }
     text-shadow: 2px 2px 4px #000000;
 }
 
+.seccion1{
+    text-align: center;
+}
+.seccion1 h3{
+    margin: 20px;
+}
+.seccion1 p{
+    margin-bottom: 30px;
+}
+
 .cosas{
     display: flex;
     position: absolute;
@@ -155,6 +166,7 @@ nav ul li a.fromLeft:after{  transform-origin:  0% 50%; }
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 50px;
 }
 .grid-texto h1 {
     text-align: center;
@@ -167,29 +179,21 @@ nav ul li a.fromLeft:after{  transform-origin:  0% 50%; }
 .grid-texto img {
     max-width: 70%;
 }
-.grid-texto h1 {
-
-    text-align: center;
-    background: black;
-    font: 2.8em sans-serif;
-    color: #ffffff;
-    margin-left: 15%;
-    margin-right: 15%;
-}
-.grid-texto img {
-    max-width: 70%;
-}
-
-/*  parejas */
 .pares{
-    display: flexbox;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
 }
 .pares img{
-   width: 30%;
+   width: 60%;
 }
-
-.pares .perro-modelo{
-    height: 25%git ;
+.complemento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
 }
 /* FIN de INDEX*/
 
